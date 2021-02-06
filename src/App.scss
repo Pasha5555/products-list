@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(./images/1.jpg) no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+}
+
+.input-add,
+.select-add,
+.button-add {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgb(197, 209, 243);
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  border: 3px solid rgb(129, 129, 224);
+  outline: none;
+  cursor: pointer;
+}
+
+.button-add {
+  height: 40px;
+  padding: 10px;
+  background-color: green;
+  border: none;
+}
+
+.select-status {
+  display: block;
+  height: 30px;
+  width: 200px;
+  border: 2px solid rgb(129, 129, 224);
+  margin-bottom: 50px;
+}
