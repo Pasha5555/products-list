@@ -16,7 +16,7 @@ export const ProductItem = ({
   const changeStatus = () => {
     const currDate = new Date();
     const month = currDate.getMonth() + 1;
-    const day = currDate.getDay();
+    const day = currDate.getDay()+1;
     const hours = currDate.getHours();
     const minutes = currDate.getMinutes();
 
